@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<script type="text/javascript" src="question7.js"></script>
+<title>Project 1</title>
+</head>
+
+<body>
+<p>
+    <table> 
+        <tr>
+            <td>
+                <label for="productField">Enter Product ID:</label>
+                <input type="text" name="productField" id="productField">
+            </td>
+            <td><input type="button" name="productBtn" id="productBtn" value="Search" onclick="searchProductID()"> </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="supplierField">Enter Supplier ID:</label>
+                <input type="text" name="supplierField" id="supplierField">
+            </td>
+            <td><input type="button" name="supplierBtn" id="supplierBtn" value="Search" onclick="searchSupplierID()"> </td>
+        </tr>
+    <table>
+</p>
+<h3>List of all information about the Products/Suppliers</h3>
+<table width="229" border="1" id="contentTable">
+  <tr>
+    <td width="135">Product Id</td>
+    <td width="78">Supplier Id</td>
+    <td width="78">Product Name</td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+</body>
+</html>
