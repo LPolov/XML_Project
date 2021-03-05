@@ -1,0 +1,15 @@
+<!ELEMENT suppliers (supplier+)>
+<!ELEMENT supplier (distributionarea, product+)>
+<!ATTLIST supplier id CDATA #REQUIRED>
+<!ELEMENT distributionarea (#PCDATA)>
+<!ELEMENT product (product_details, name, price, Retail_Price*, qty)>
+<!ATTLIST product instock CDATA #REQUIRED>
+<!ATTLIST product productid CDATA #REQUIRED>
+<!ELEMENT product_details (SKU, Rating_Avg, Product_URL)>
+<!ELEMENT SKU (#PCDATA)>
+<!ELEMENT Rating_Avg (#PCDATA)>
+<!ELEMENT Product_URL (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT Retail_Price (#PCDATA)>
+<!ELEMENT qty (#PCDATA)>

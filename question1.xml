@@ -1,0 +1,81 @@
+<?xml version="1.0"?> 
+<suppliers>
+    <supplier id="2384"> 
+        <distributionarea>Toronto</distributionarea> 
+        <product instock="Y" productid="SD93"> 
+            <product_details>
+                <SKU>nmp-6874</SKU>
+                <Rating_Avg>4.5</Rating_Avg>
+                <Product_URL>https://www.domain.com/product/nmp-6874</Product_URL>
+    	   </product_details>
+            <name>Roller Skates</name> 
+            <price>25.00</price> 
+	        <Retail_Price>26.99</Retail_Price>
+            <qty>25</qty> 
+        </product> 
+        <product instock="N" productid="B12"> 
+            <product_details>
+                <SKU>xyz-1133</SKU>
+                <Rating_Avg>2.2</Rating_Avg>
+                <Product_URL>https://www.domain.com/product/xyz-1133</Product_URL>
+    	   </product_details>
+            <name>Bounce-o Ball</name> 
+            <price>.35</price> 
+            <qty>150</qty> 
+        </product> 
+    </supplier> 
+
+    <supplier id="5268"> 
+        <distributionarea>Brampton</distributionarea> 
+        <product instock="Y" productid="Q52"> 
+            <product_details>
+                <SKU>ABC-2234</SKU>
+                <Rating_Avg>4.9</Rating_Avg>
+                <Product_URL>https://www.domain.com/product/abc-2234</Product_URL>
+    	   </product_details>
+            <name>Crash N Burn Skis</name> 
+            <price>20</price> 
+	        <Retail_Price>22.99</Retail_Price>
+            <qty>10</qty> 
+        </product> 
+    </supplier> 
+    <supplier id="3384"> 
+        <distributionarea>Ajax</distributionarea> 
+        <product instock="Y" productid="PS93"> 
+            <product_details>
+                <SKU>HAB-9133</SKU>
+                <Rating_Avg>4.6</Rating_Avg>
+                <Product_URL>https://www.domain.com/product/hab-9133</Product_URL>
+            </product_details>
+            <name>All Star Shoe</name> 
+            <price>55.00</price> 
+	        <Retail_Price>57.99</Retail_Price>
+            <qty>12</qty> 
+        </product> 
+        <product instock="Y" productid="M12"> 
+           <product_details>
+                <SKU>HEH-9133</SKU>
+                <Rating_Avg>4.2</Rating_Avg>
+                <Product_URL>https://www.domain.com/product/heh-2245</Product_URL>
+    	   </product_details>
+            <name>All Star Hat</name> 
+            <price>44.35</price> 
+            <Retail_Price>48.99</Retail_Price>
+            <qty>15</qty> 
+        </product> 
+    </supplier> 
+
+    <supplier id="9008"> 
+        <distributionarea>Toronto</distributionarea> 
+        <product instock="N" productid="F32"> 
+            <product_details>
+                <SKU>MEH-4133</SKU>
+                <Rating_Avg>3.2</Rating_Avg>
+                <Product_URL>https://www.domain.com/product/meh-4133</Product_URL>
+    	   </product_details>
+            <name>Fancy Shirt</name> 
+            <price>120</price> 
+            <qty>100</qty> 
+        </product> 
+    </supplier> 
+</suppliers> 

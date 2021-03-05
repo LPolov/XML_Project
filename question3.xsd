@@ -1,0 +1,46 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="suppliers">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="supplier" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="distributionarea"/>
+              <xs:element name="product_details" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="SKU"/>
+                    <xs:element type="xs:float" name="Rating_Avg"/>
+                    <xs:element type="xs:string" name="Product_URL"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="product" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="product_details" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="SKU"/>
+                          <xs:element type="xs:float" name="Rating_Avg"/>
+                          <xs:element type="xs:string" name="Product_URL"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="name"/>
+                    <xs:element type="xs:float" name="price"/>
+                    <xs:element type="xs:float" name="Retail_Price" minOccurs="0"/>
+                    <xs:element type="xs:short" name="qty"/>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="instock" use="optional"/>
+                  <xs:attribute type="xs:string" name="productid" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:short" name="id" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
